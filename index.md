@@ -15,7 +15,7 @@ Email: [abhoi3@uic.edu](mailto://abhoi3@uic.edu)!-->
 Graduate Student<br>
 <a href="https://cs.uic.edu">Department of Computer Science</a> <br>
 <a href="https://www.uic.edu">University of Illinois at Chicago</a> <br>
-Email: <a href="mailto://abhoi3@uic.edu">abhoi3@uic.edu</center>
+  Email: <a href="mailto://abhoi3@uic.edu">abhoi3@uic.edu</a></center>
 
 ### Research Interests
 
