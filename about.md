@@ -15,7 +15,7 @@ Quick life introduction:
 - Started school at [Ekamai International School](https://www.eis.ac.th/) in August, 2004.
 - Graduated from EIS with Silver Cords in College Preparatory Dimploma - Emphasis in Engineering in May, 2013.
 - Started undergraduate studies at [Amity University](https://amity.edu/) in Bachelor of Technology - Computer Science & Engineering in July, 2013.
-- Saw Satya Nadella speak at [Microsoft Talent India 2014](https://www.instagram.com/p/tkOTtuLn2R/?taken-by=amlaanb)!
+- Heard Satya Nadella speak at [Microsoft Talent India 2014](https://www.instagram.com/p/tkOTtuLn2R/?taken-by=amlaanb)!
 - Interned at [OSSCube Solutions](https://www.linkedin.com/company/osscube/) from May to July 2015.
 - Interned at [Reliance Communications](https://www.rcom.co.in/) from May to July 2016.
 - Graduated from Amity University with First Class Honors in May, 2017.
