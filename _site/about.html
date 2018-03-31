@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head><!--code to go at start of html--><script language="JavaScript" type="text/javascript">
+<!--
+function writeit(data) {
+  var idx=0, n=data[data.length-1];
+  var fields=0, i;
+  for (i=0; i<data.length; i++) { if (data[i]==n) { fields++; } }
+  if (fields>1) { document.write('<a href="'); }
+  while( data[idx]!=n ) { document.write('&#'+(data[idx++]^n)+';'); }
+  idx++;
+  if (fields>2) {
+    document.write('" title="');
+    while( data[idx]!=n ) { document.write('&#'+(data[idx++]^n)+';'); }
+    idx++;
+  }
+  if (fields>1) {
+    document.write('">');
+    while( data[idx]!=n ) { document.write('&#'+(data[idx++]^n)+';'); }
+    idx++;
+    document.write('</a>');
+  }
+}
+//-->
+</script>
+<link rel="icon" href="https://www1.cs.uic.edu/images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="https://www1.cs.uic.edu/images/favicon.ico" type="image/x-icon">
+<!--<title>Amlaan Bhoi</title><style type="text/css">
+.style2 {
+				margin-bottom: 6px;
+}
+.style3 {
+				margin-top: 36px;
+}
+.style5 {
+				border-width: 0px;
+				float: right;
+				margin: 0 0 10px 10px;
+				padding: 2px;
+}</style>
+	!-->
+<title>About</title>
+</head>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>About</title>
+	<link rel="stylesheet" href="/css/main.css">
+</head>
+	<body>
+		<div id="container">
+<div id="top">
+  <a href="/">Home</a>-><a href="about.html">About</a><br>
+</div>
+<div id="leftnav" style="width: 172px; height: 268px;">
+<p>
+  <a href="about.html">About</a><br>
+  <a href="projects.html">Projects</a>
+  <a href="research.html">Research</a><br>
+  <br>
+  <a href="pdf/resume.pdf">Resume (pdf)</a><br>
+</p>
+</div>
+<div id="content">
+		<h3 id="about">About</h3>
+
+<center><img src="/images/amlaan_2017.jpg" alt="chicago" width="250" /><img src="/images/amlaan_2017-2.jpg" alt="cambridge" width="250" /></center>
+
+<p>Quick life introduction:</p>
+
+<ul>
+  <li>Born in Oct 1994 in New Delhi, India.</li>
+  <li>Studied upto Grade 3 at <a href="https://www.dpseok.net/">Delhi Public School, East of Kailash</a>.</li>
+  <li>Moved to Bangkok, Thailand in April, 2004.</li>
+  <li>Started school at <a href="https://www.eis.ac.th/">Ekamai International School</a> in August, 2004.</li>
+  <li>Graduated from EIS with Silver Cords in College Preparatory Dimploma - Emphasis in Engineering in May, 2013.</li>
+  <li>Started undergraduate studies at <a href="https://amity.edu/">Amity University</a> in Bachelor of Technology - Computer Science &amp; Engineering in July, 2013.</li>
+  <li>Saw Satya Nadella speak at <a href="https://www.instagram.com/p/tkOTtuLn2R/?taken-by=amlaanb">Microsoft Talent India 2014</a>!</li>
+  <li>Interned at <a href="https://www.linkedin.com/company/osscube/">OSSCube Solutions</a> from May to July 2015.</li>
+  <li>Interned at <a href="https://www.rcom.co.in/">Reliance Communications</a> from May to July 2016.</li>
+  <li>Graduated from Amity University with First Class Honors in May, 2017.</li>
+  <li>Moved to Chicago, USA in August 2017.</li>
+  <li>Started graduate school at <a href="https://www.uic.edu">University of Illinois at Chicago</a> in Master of Science - Computer Science in August, 2017.</li>
+  <li>Won <a href="https://devpost.com/software/lifeguard-io">Best Microsoft Hack</a> award at <a href="http://hackharvard.io">HackHarvard 2017</a> in October, 2017.</li>
+</ul>
+
+<!--
+You can use HTML elements in Markdown, such as the comment element, and they won't be affected by a markdown parser. However, if you create an HTML element in your markdown file, you cannot use markdown syntax within that element's contents.
+-->
+
+</div>
+<div id="footer">
+This page is based on the design by Prof
+<a href="http://alex.smola.org/">Alex Smola</a>.</div>
+</div>
+</div>
+	</body>
+</html>

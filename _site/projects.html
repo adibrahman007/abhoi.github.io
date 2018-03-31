@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head><!--code to go at start of html--><script language="JavaScript" type="text/javascript">
+<!--
+function writeit(data) {
+  var idx=0, n=data[data.length-1];
+  var fields=0, i;
+  for (i=0; i<data.length; i++) { if (data[i]==n) { fields++; } }
+  if (fields>1) { document.write('<a href="'); }
+  while( data[idx]!=n ) { document.write('&#'+(data[idx++]^n)+';'); }
+  idx++;
+  if (fields>2) {
+    document.write('" title="');
+    while( data[idx]!=n ) { document.write('&#'+(data[idx++]^n)+';'); }
+    idx++;
+  }
+  if (fields>1) {
+    document.write('">');
+    while( data[idx]!=n ) { document.write('&#'+(data[idx++]^n)+';'); }
+    idx++;
+    document.write('</a>');
+  }
+}
+//-->
+</script>
+<link rel="icon" href="https://www1.cs.uic.edu/images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="https://www1.cs.uic.edu/images/favicon.ico" type="image/x-icon">
+<!--<title>Amlaan Bhoi</title><style type="text/css">
+.style2 {
+				margin-bottom: 6px;
+}
+.style3 {
+				margin-top: 36px;
+}
+.style5 {
+				border-width: 0px;
+				float: right;
+				margin: 0 0 10px 10px;
+				padding: 2px;
+}</style>
+	!-->
+<title>Projects</title>
+</head>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Projects</title>
+	<link rel="stylesheet" href="/css/main.css">
+</head>
+	<body>
+		<div id="container">
+<div id="top">
+  <a href="/">Home</a>-><a href="projects.html">Projects</a><br>
+</div>
+<div id="leftnav" style="width: 172px; height: 268px;">
+<p>
+<a href="about.html">About</a><br>
+  <a href="projects.html">Projects</a>
+  <a href="research.html">Research</a><br>
+  <br>
+  <a href="pdf/resume.pdf">Resume (pdf)</a><br>
+</p>
+</div>
+<div id="content">
+		<h3 id="projects">Projects</h3>
+
+<p>Following are some selected projects:</p>
+
+<ol>
+  <li>
+    <p><strong>Amlaan Bhoi</strong>, <a href="https://devpost.com/ChetanVelivela">Chetan Velivela</a>, <a href="https://devpost.com/sswarnakar">Sudipta Swarnakar</a> <br />
+<em><a href="https://devpost.com/abhoi">Lifeguard.io</a></em> <br />
+A 3D Convolutional Neural Network model developed on Microsoft Azure aimed to detect drowning people in swimming pools.</p>
+  </li>
+  <li>
+    <p><strong>Amlaan Bhoi</strong>, <a href="https://sandeepjoshi1910.github.io">Sandeep Joshi</a> <br />
+<em><a href="https://github.com/abhoi/ms-apriori">MS-Apriori</a></em> <br />
+An association rule mining (unsupervised learning) algorithm with multiple minimum support.</p>
+  </li>
+  <li>
+    <p><a href="https://sandeepjoshi1910.github.io">Sandeep Joshi</a>, <strong>Amlaan Bhoi</strong>, <a href="https://dkaushik94.github.io">Debojit Kaushik</a> <br />
+<em><a href="https://github.com/dkaushik94/ARyouthereyet">ARYouThereYet</a></em> <br />
+An ARKit iOS application utilizing Google Maps and Mapbox APIs to show nearby attractions in Augmented Reality.</p>
+  </li>
+  <li>
+    <p><strong>Amlaan Bhoi</strong> <br />
+<em><a href="https://github.com/abhoi/AutoColor">AutoColor</a></em> <br />
+A K-means clustering algorithm using <a href="https://opencv.org/">OpenCV</a> and <a href="http://scikit-learn.org/stable/">Scikit-Learn</a> that detects K dominant colors in an image. Autopicks K using <a href="http://scikit-learn.org/stable/modules/generated/sklearn.metrics.silhouette_score.html">Silhouette Coefficient</a> metric.</p>
+  </li>
+</ol>
+
+<!--
+You can use HTML elements in Markdown, such as the comment element, and they won't be affected by a markdown parser. However, if you create an HTML element in your markdown file, you cannot use markdown syntax within that element's contents.
+-->
+
+</div>
+<div id="footer">
+This page is based on the design by Prof
+<a href="http://alex.smola.org/">Alex Smola</a>.</div>
+</div>
+</div>
+	</body>
+</html>

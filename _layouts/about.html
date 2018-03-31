@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head><!--code to go at start of html--><script language="JavaScript" type="text/javascript">
+<!--
+function writeit(data) {
+  var idx=0, n=data[data.length-1];
+  var fields=0, i;
+  for (i=0; i<data.length; i++) { if (data[i]==n) { fields++; } }
+  if (fields>1) { document.write('<a href="'); }
+  while( data[idx]!=n ) { document.write('&#'+(data[idx++]^n)+';'); }
+  idx++;
+  if (fields>2) {
+    document.write('" title="');
+    while( data[idx]!=n ) { document.write('&#'+(data[idx++]^n)+';'); }
+    idx++;
+  }
+  if (fields>1) {
+    document.write('">');
+    while( data[idx]!=n ) { document.write('&#'+(data[idx++]^n)+';'); }
+    idx++;
+    document.write('</a>');
+  }
+}
+//-->
+</script>
+<link rel="icon" href="https://www1.cs.uic.edu/images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="https://www1.cs.uic.edu/images/favicon.ico" type="image/x-icon">
+<!--<title>Amlaan Bhoi</title><style type="text/css">
+.style2 {
+				margin-bottom: 6px;
+}
+.style3 {
+				margin-top: 36px;
+}
+.style5 {
+				border-width: 0px;
+				float: right;
+				margin: 0 0 10px 10px;
+				padding: 2px;
+}</style>
+	!-->
+<title>{{ page.title }}</title>
+</head>
+	{% include head.html %}
+	<body>
+		<div id="container">
+<div id="top">
+  <a href="/">Home</a>-><a href="about.html">About</a><br>
+</div>
+<div id="leftnav" style="width: 172px; height: 268px;">
+<p>
+  <a href="about.html">About</a><br>
+  <a href="projects.html">Projects</a>
+  <a href="research.html">Research</a><br>
+  <br>
+  <a href="pdf/resume.pdf">Resume (pdf)</a><br>
+</p>
+</div>
+<div id="content">
+		{{ content }}
+</div>
+<div id="footer">
+This page is based on the design by Prof
+<a href="http://alex.smola.org/">Alex Smola</a>.</div>
+</div>
+</div>
+	</body>
+</html>
