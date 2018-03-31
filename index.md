@@ -28,10 +28,10 @@ Email: <a href="mailto://abhoi3@uic.edu">abhoi3@uic.edu
 
 ### Current Coursework
 
-1. Spring 2018
-- [Advanced Machine Learning](https://www.cs.uic.edu/~zhangx/teaching/CS594_Spring2018_Syllabus.pdf)
-- [Data Mining & Text Mining](https://www.cs.uic.edu/~liub/teach/cs583-spring-18/cs583.html)
-- [Introduction to Data Science](http://cs418.cs.uic.edu/)
+- Spring 2018
+  - [Advanced Machine Learning](https://www.cs.uic.edu/~zhangx/teaching/CS594_Spring2018_Syllabus.pdf)
+  - [Data Mining & Text Mining](https://www.cs.uic.edu/~liub/teach/cs583-spring-18/cs583.html)
+  - [Introduction to Data Science](http://cs418.cs.uic.edu/)
 
 ### Past Coursework
 
