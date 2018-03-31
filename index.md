@@ -13,27 +13,9 @@ Email: [abhoi3@uic.edu](mailto://abhoi3@uic.edu)!-->
 <h1>Amlaan Bhoi</h1>
 <img src="/images/amlaan_2018.jpg" width="200" float="center" /> <br>
 Graduate Student<br>
-<a href="https://cs.uic.edu">Department of Computer Science</a> <br>
-<a href="https://www.uic.edu">University of Illinois at Chicago</a> <br>
-<!--Email: <a href="mailto://abhoi3@uic.edu">abhoi3@uic.edu</a>!-->
-Email: <script type="text/javascript" language="javascript">
-{ coded = "bc1MaK@ya3.oly"
-  key = "yAasHBR8L0EV4r2xbSIj5FkPNzmvwec6UdgYQDWX9Z7o3phluCiGfTOnqMKt1J"
-  shift=coded.length
-  link=""
-  for (i=0; i<coded.length; i++) {
-    if (key.indexOf(coded.charAt(i))==-1) {
-      ltr = coded.charAt(i)
-      link += (ltr)
-    }
-    else {     
-      ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
-      link += (key.charAt(ltr))
-    }
-  }
-document.write("<a href='mailto:"+link+"'>abhoi3@uic.edu</a>")
-}
-</script><noscript>Sorry, you need Javascript on to email me.</noscript>
+<br><a href="https://cs.uic.edu">Department of Computer Science</a> <br>
+<br><a href="https://www.uic.edu">University of Illinois at Chicago</a> <br>
+Email: <a href="mailto://abhoi3@uic.edu">abhoi3@uic.edu
 
 
 ### Research Interests
