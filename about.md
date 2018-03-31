@@ -5,7 +5,7 @@ layout: about
 
 ### About
 
-<center><img src="/images/amlaan_2017.jpg" alt="chicago" width="250" /><img src="/images/amlaan_2017-2.jpg" alt="cambridge" width="250" /></center>
+<center><img src="/images/amlaan_2017.JPG" alt="chicago" width="250" /><img src="/images/amlaan_2017-2.JPG" alt="cambridge" width="250" /></center>
 
 Quick life introduction:
 
