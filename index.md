@@ -5,11 +5,15 @@ layout: default
 
 <img src="/images/amlaan_2018.jpg" width="200" align="right" float="right"/>
 <h2>Amlaan Bhoi</h2>
-Graduate Student<br>
+Graduate Student<br><br>
 <a href="https://cs.uic.edu">Department of Computer Science</a> <br>
 <a href="https://www.uic.edu">University of Illinois at Chicago</a> <br>
-  Email: <a href="mailto://abhoi3@uic.edu">abhoi3@uic.edu</a>
-  <br><br><br><br>
+1200 W Harrison St<br>
+Chicago, IL 60607<br>
+USA
+
+E-mail: <a href="mailto://abhoi3@uic.edu">abhoi3@uic.edu</a>
+<br><br>
 
 ### Research Interests
 
@@ -21,18 +25,16 @@ Graduate Student<br>
 
 ### Current Coursework
 
-- University of Illinois at Chicago
-  - Spring 2018
-    - [Advanced Machine Learning](https://www.cs.uic.edu/~zhangx/teaching/CS594_Spring2018_Syllabus.pdf)
-    - [Data Mining & Text Mining](https://www.cs.uic.edu/~liub/teach/cs583-spring-18/cs583.html)
-    - [Introduction to Data Science](http://cs418.cs.uic.edu/)
+- Spring 2018
+  - [Advanced Machine Learning](https://www.cs.uic.edu/~zhangx/teaching/CS594_Spring2018_Syllabus.pdf)
+  - [Data Mining & Text Mining](https://www.cs.uic.edu/~liub/teach/cs583-spring-18/cs583.html)
+  - [Introduction to Data Science](http://cs418.cs.uic.edu/)
 
 ### Past Coursework
 
-- University of Illinois at Chicago
-  - Fall 2017
-    - [Applied Artificial Intelligence](https://www.cs.uic.edu/Piotr)
-    - [Virtual and Augmented Reality](https://www.evl.uic.edu/aej/491/)
+- Fall 2017
+	- [Applied Artificial Intelligence](https://www.cs.uic.edu/Piotr)
+	- [Virtual and Augmented Reality](https://www.evl.uic.edu/aej/491/)
 
 ### Find Me
 
