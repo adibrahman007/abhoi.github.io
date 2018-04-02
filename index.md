@@ -21,16 +21,18 @@ Graduate Student<br>
 
 ### Current Coursework
 
-- Spring 2018
-  - [Advanced Machine Learning](https://www.cs.uic.edu/~zhangx/teaching/CS594_Spring2018_Syllabus.pdf)
-  - [Data Mining & Text Mining](https://www.cs.uic.edu/~liub/teach/cs583-spring-18/cs583.html)
-  - [Introduction to Data Science](http://cs418.cs.uic.edu/)
+- University of Illinois at Chicago
+  - Spring 2018
+    - [Advanced Machine Learning](https://www.cs.uic.edu/~zhangx/teaching/CS594_Spring2018_Syllabus.pdf)
+    - [Data Mining & Text Mining](https://www.cs.uic.edu/~liub/teach/cs583-spring-18/cs583.html)
+    - [Introduction to Data Science](http://cs418.cs.uic.edu/)
 
 ### Past Coursework
 
-- Fall 2017
-  - [Applied Artificial Intelligence](https://www.cs.uic.edu/Piotr)
-  - [Virtual and Augmented Reality](https://www.evl.uic.edu/aej/491/)
+- University of Illinois at Chicago
+  - Fall 2017
+    - [Applied Artificial Intelligence](https://www.cs.uic.edu/Piotr)
+    - [Virtual and Augmented Reality](https://www.evl.uic.edu/aej/491/)
 
 ### Find Me
 
