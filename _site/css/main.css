@@ -4,11 +4,6 @@ body {
 	background-color: #f5f5f5;
 }
 
-@font-face {
-	font-family: 'Lucida Grande';
-	src: url("../fonts/Lucida_Grande.tff");
-}
-
 #container
 {
 width: 95%;
