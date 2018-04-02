@@ -28,9 +28,9 @@ Graduate Student<br>
 
 ### Past Coursework
 
-1. Fall 2017
-- [Applied Artificial Intelligence](https://www.cs.uic.edu/Piotr)
-- [Virtual and Augmented Reality](https://www.evl.uic.edu/aej/491/)
+- Fall 2017
+  - [Applied Artificial Intelligence](https://www.cs.uic.edu/Piotr)
+  - [Virtual and Augmented Reality](https://www.evl.uic.edu/aej/491/)
 
 ### Find Me
 
