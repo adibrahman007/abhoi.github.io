@@ -2,13 +2,6 @@
 title: Amlaan Bhoi
 layout: default
 ---
-<!--
-## {{ page.title }}
-<img src="/images/amlaan_2018.jpg" width="200" float="right" /><br>
-Graduate Student
-[Department of Computer Science](https://cs.uic.edu) \\
-[University of Illinois at Chicago](https://www.uic.edu) \\
-Email: [abhoi3@uic.edu](mailto://abhoi3@uic.edu)!-->
 
 <img src="/images/amlaan_2018.jpg" width="200" align="right" float="right"/>
 <h2>Amlaan Bhoi</h2>
@@ -16,7 +9,7 @@ Graduate Student<br>
 <a href="https://cs.uic.edu">Department of Computer Science</a> <br>
 <a href="https://www.uic.edu">University of Illinois at Chicago</a> <br>
   Email: <a href="mailto://abhoi3@uic.edu">abhoi3@uic.edu</a>
-  <br><br><br><br>
+  <br><br>
 
 ### Research Interests
 
