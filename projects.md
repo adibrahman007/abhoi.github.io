@@ -23,6 +23,6 @@ An ARKit iOS application utilizing Google Maps and Mapbox APIs to show nearby at
 *[AutoColor](https://github.com/abhoi/AutoColor)* \\
 A K-means clustering algorithm using [OpenCV](https://opencv.org/) and [Scikit-Learn](http://scikit-learn.org/stable/) that detects K dominant colors in an image. Autopicks K using [Silhouette Coefficient](http://scikit-learn.org/stable/modules/generated/sklearn.metrics.silhouette_score.html) metric.
 
-<!--
-You can use HTML elements in Markdown, such as the comment element, and they won't be affected by a markdown parser. However, if you create an HTML element in your markdown file, you cannot use markdown syntax within that element's contents.
--->
+5. **Amlaan Bhoi** \\
+*[Squeek](https://github.com/abhoi/Squeek)* \\
+A Twitter iOS client with Fabric SDK REST API support, custom viewcontrollers, and timeline for users to utilize.
