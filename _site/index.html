@@ -28,7 +28,68 @@
 </p>
 </div>
 <div id="content">
-		<p><img src="/images/amlaan_2018.jpg" width="200" align="right" float="right" /></p>
+		<script>
+function scrambledString(tag, objName, initScrambledString, initScrambledStringIndices) {
+	this.tag = tag;
+	this.objName = objName;
+	this.string = initScrambledString;
+	this.indices = initScrambledStringIndices;
+	this.rescramble = rescramble;
+	this.initAnimatedBubbleSort = initAnimatedBubbleSort;
+	this.bubbleSortStep = bubbleSortStep;
+	this.bubbleSortBookmark = 0;
+
+	this.rescramble();
+	this.tag.innerHTML = this.string + ' <a href="#" onClick="' + this.objName + '.initAnimatedBubbleSort();return false;">unscramble</a>';
+}
+
+function rescramble() {
+	for (i = 0; i < this.indices.length; i++) {
+		indexToMove = Math.floor(Math.random() * (this.indices.length - i));
+		charIndexRemoved = this.indices.splice(indexToMove, 1);
+		this.indices = this.indices.concat(charIndexRemoved);
+		scrambledStringTemp = this.string.substring(0, indexToMove) +
+			this.string.substring(indexToMove + 1) +
+			this.string.substring(indexToMove, indexToMove + 1);
+		this.string = scrambledStringTemp;
+	}
+}
+
+function initAnimatedBubbleSort() {
+	this.interval = setInterval(this.objName + '.bubbleSortStep()', 12);
+}
+
+function bubbleSortStep() {		
+	if (this.bubbleSortBookmark >= this.indices.length - 1) {
+		this.bubbleSortBookmark = 0;
+	}
+	for (i = this.bubbleSortBookmark; i < this.indices.length - 1; i++) {
+		if (i == 0) {
+			this.changed = 0;
+		}
+		if (this.indices[i] > this.indices[i + 1]) {
+			this.changed = 1;
+			tempIndex = this.indices[i];
+			this.indices[i] = this.indices[i + 1];
+			this.indices[i + 1] = tempIndex;
+			tempArrange = this.string.substring(0, i) +
+				this.string.substring(i + 1, i + 2) + 
+				this.string.substring(i, i + 1) +
+				this.string.substring(i + 2);
+			this.string = tempArrange;
+			this.tag.innerHTML = this.string;
+			this.bubbleSortBookmark = i;
+			break;
+		}
+	}
+	this.bubbleSortBookmark = i;
+	if (!this.changed) {
+		clearInterval(this.interval);
+	}
+}
+</script>
+
+<p><img src="/images/amlaan_2018.jpg" width="200" align="right" float="right" /></p>
 <h2>Amlaan Bhoi</h2>
 <p>Graduate Student<br /><br />
 <a href="https://cs.uic.edu">Department of Computer Science</a> <br />
@@ -37,7 +98,19 @@
 Chicago, IL 60607<br />
 USA</p>
 
-<p>E-mail: <a href="mailto://abhoi3@uic.edu">abhoi3@uic.edu</a>
+<!--E-mail: <a href="mailto://abhoi3@uic.edu">abhoi3@uic.edu</a>-->
+<p>E-mail: <font id="email" style="display:inline;">
+	"bhoi3a@uic.edu "
+	<a href="#" onclick="emailScramble.initAnimatedBubbleSort();return false;">unscramble</a>
+</font>
+<!--<script type="text/javascript">
+    emailScramble = new scrambledString(document.getElementById('email'),
+        'emailScramble', 'erepc@aahby.etulk.skde',
+        [12,13,15,1,8,7,2,5,4,11,18,10,17,3,22,16,6,19,9,14,21,20]);
+</script>!-->
+<script type="text/javascript">
+	emailScramble = new scrambledString(document.getElementById('email'), 'emailScramble', 'duiohce.ua3@bi', [13, 8, 5, 4, 3, 10, 12, 11, 14, 1, 6, 7, 2, 9]);
+</script>
 <br /><br /></p>
 
 <h3 id="research-interests">Research Interests</h3>
