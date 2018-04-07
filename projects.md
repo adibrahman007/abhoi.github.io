@@ -8,7 +8,7 @@ layout: projects
 Following are some selected projects:
 
 1. **Amlaan Bhoi**, [Chetan Velivela](https://devpost.com/ChetanVelivela), [Sudipta Swarnakar](https://devpost.com/sswarnakar) \\
-*[Lifeguard.io](https://devpost.com/abhoi)* \\
+*[Lifeguard.io](https://devpost.com/software/lifeguard-io)* \\
 A 3D Convolutional Neural Network model developed on Microsoft Azure aimed to detect drowning people in swimming pools.
 
 2. **Amlaan Bhoi**, [Sandeep Joshi](https://sandeepjoshi1910.github.io) \\
