@@ -69,7 +69,7 @@ function bubbleSortStep() {
 Graduate Student<br><br>
 <a href="https://cs.uic.edu">Department of Computer Science</a> <br>
 <a href="https://www.uic.edu">University of Illinois at Chicago</a> <br>
-1200 W Harrison St<br>
+851 S Morgan St<br>
 Chicago, IL 60607<br>
 USA
 
