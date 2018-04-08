@@ -90,7 +90,7 @@ E-mail: <font id="email" style="display:inline;">
 
 ### Research Interests
 
-<p align="justify">My current research interests involve action recognition in videos, object localization in images, and aspect-based sentiment analysis.</p>
+<p align="justify">My current research interests involve spatio-temporal action recognition in videos, object localization in images, and aspect-based sentiment analysis.</p>
 
 ### Biography
 
