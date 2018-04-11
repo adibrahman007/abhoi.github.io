@@ -29,6 +29,8 @@ author: abhoi
 - [https://arxiv.org/pdf/1610.03771.pdf](https://arxiv.org/pdf/1610.03771.pdf)
 - [https://pdfs.semanticscholar.org/fde7/78f814a13cb1c7b2ec9970130aa3f4bbe363.pdf](https://pdfs.semanticscholar.org/fde7/78f814a13cb1c7b2ec9970130aa3f4bbe363.pdf)
 - [https://groups.csail.mit.edu/sls/publications/2015/Alghunaim_MEng-Thesis.pdf](https://groups.csail.mit.edu/sls/publications/2015/Alghunaim_MEng-Thesis.pdf)
+- [https://www.aclweb.org/anthology/D16-1059](https://www.aclweb.org/anthology/D16-1059)
+- [https://github.com/happywwy/Recursive-Neural-Conditional-Random-Field](https://github.com/happywwy/Recursive-Neural-Conditional-Random-Field)
 
 ### Sampling
 
