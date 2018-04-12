@@ -31,6 +31,7 @@ author: abhoi
 - [https://groups.csail.mit.edu/sls/publications/2015/Alghunaim_MEng-Thesis.pdf](https://groups.csail.mit.edu/sls/publications/2015/Alghunaim_MEng-Thesis.pdf)
 - [https://www.aclweb.org/anthology/D16-1059](https://www.aclweb.org/anthology/D16-1059)
 - [https://github.com/happywwy/Recursive-Neural-Conditional-Random-Field](https://github.com/happywwy/Recursive-Neural-Conditional-Random-Field)
+- [https://github.com/songyouwei/SA-DL/blob/master/td_lstm.py](https://github.com/songyouwei/SA-DL/blob/master/td_lstm.py)
 
 ### Sampling
 
