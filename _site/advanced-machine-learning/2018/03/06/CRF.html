@@ -16,6 +16,17 @@
         padding: 2px;
 }</style>
   !-->
+    
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117440196-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-117440196-1');
+</script>
+ 
 <title>[sequence-modeling] Conditional Random Fields</title>
 <head>
 	<meta charset="utf-8">
@@ -24,6 +35,29 @@
 	<link rel="stylesheet" href="/css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 </head>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script
+  type="text/javascript"
+  charset="utf-8"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+>
+</script>
+<script
+  type="text/javascript"
+  charset="utf-8"
+  src="https://vincenttam.github.io/javascripts/MathJaxLocal.js"
+>
+</script>
+
+
 </head>
 <body>
   <div id="container">
@@ -57,7 +91,23 @@
   <article class="post-content">
     <p>Let’s explore Conditional Random Fields, how they are different from Markov Random Fields, how they can be useful for sequence based classifications (POS tagging among other things), how to train them, and how to perform inference on them.</p>
 
-<p>This page will be updated soon (with MathJax support)!</p>
+<p>A <strong>conditional random field</strong> or <strong>CRF</strong> is a <strong>Markov Random Field</strong> where all the clique potentials are conditioned on input features:</p>
+
+<script type="math/tex; mode=display">p(\textbf{y}|\textbf{x, w}) = \frac{1}{Z(\textbf{x, w})}\prod_{c} \psi_{c}(\textbf{y}_{c}|\textbf{x, w})</script>
+
+<p>A CRF is basically a <strong>structured ouput</strong> extension of <strong>logistic regression</strong>. We can assume a log-linear representation of the potentials:</p>
+
+<script type="math/tex; mode=display">\psi_{c}(\textbf{y}_{c}|\textbf{x, w}) = exp(\textbf{w}_{c}^{T} \phi(\textbf{x, }\textbf{y}_{c}))</script>
+
+<p>We can also represent CRFs as:</p>
+
+<script type="math/tex; mode=display">p(\textbf{y}|X) = \frac{1}{Z_X}\textrm{exp}\left (\sum_{s=1}^{m} \left \langle \textbf{w}_{y_{s}}, \textbf{x}_{s} \right \rangle + \sum_{s=1}^{m-1}T_{y_{s},y_{s+1}}\right)</script>
+
+<script type="math/tex; mode=display">Z_X = \sum_{\mathbf{\hat{y}} \in \mathcal{Y}^{m}}^{ } \textrm{exp}\left (\sum_{s=1}^{m} \left \langle \textbf{w}_{\hat{y}_{s}}, \textbf{x}_{s} \right \rangle + \sum_{s=1}^{m-1}T_{\hat{y}_{s},\hat{y}_{s+1}}\right )</script>
+
+<p><strong>References</strong>:</p>
+
+<p>Murphy, Kevin P. “Machine Learning: A Probabilistic Perspective. Adaptive Computation and Machine Learning.” (2012).</p>
 
   </article>
 
