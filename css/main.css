@@ -1,6 +1,6 @@
 body {
 	margin: 0px;
-	font-family: 'Lucida Grande', 'Roboto', 'Trebuchet MS', Helvetica, arial, sans-serif;
+	font-family: 'Lucida Grande', 'Roboto', Helvetica, 'Trebuchet MS', arial, sans-serif;
 	background-color: #f5f5f5;
 }
 
@@ -11,14 +11,14 @@ margin: 20px auto;
 color: #333;
 border: 1px solid gray;
 line-height: 120%;
-background-color: #900;
+background-color: #A31F34;
 }
 
 #top
 {
 padding: 0.5em;
 padding-left: 1em;
-background-color: #eee;
+background-color: #C2C0BF;
 border-bottom: 1px solid gray;
 }
 #top a:link {color:purple; text-decoration:none;}	  
@@ -51,7 +51,7 @@ font-weight: bold;
 #leftnav a:link {color:white; text-decoration:none;}	  
 #leftnav a:visited {color:white; text-decoration:none;}	  
 #leftnav a:active {color:white}
-#leftnav a:hover {color:#333}
+#leftnav a:hover {color:#C7C9C7}
 
 #content
 {
