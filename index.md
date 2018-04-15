@@ -66,7 +66,8 @@ function bubbleSortStep() {
 
 <img src="/images/amlaan_2018.jpg" width="200" align="right" float="right"/>
 <h2>Amlaan Bhoi</h2>
-Graduate Student<br><br>
+Graduate Student<br>
+Intel AI Student Ambassador<br><br>
 <a href="https://cs.uic.edu">Department of Computer Science</a> <br>
 <a href="https://www.uic.edu">University of Illinois at Chicago</a> <br>
 851 S Morgan St<br>
