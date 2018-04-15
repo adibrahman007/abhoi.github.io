@@ -18,7 +18,7 @@ background-color: #A31F34;
 {
 padding: 0.5em;
 padding-left: 1em;
-background-color: #C2C0BF;
+background-color: #eee;
 border-bottom: 1px solid gray;
 }
 #top a:link {color:purple; text-decoration:none;}	  
@@ -51,7 +51,7 @@ font-weight: bold;
 #leftnav a:link {color:white; text-decoration:none;}	  
 #leftnav a:visited {color:white; text-decoration:none;}	  
 #leftnav a:active {color:white}
-#leftnav a:hover {color:#C7C9C7}
+#leftnav a:hover {color:#eee}
 
 #content
 {
